@@ -1,6 +1,7 @@
 char *namen;
 int qqqppp;
 #include"FLASH.h"
+#onclude"MINE.h"
 #include"DQ.h"
 #include"SB.h"
 #include"SN.h"
@@ -19,7 +20,7 @@ cout<<"Press enter if you dont't know or are unable to understand what to do nex
 cout<<"\nPress enter to continue .";
 getch();
 cout<<"\nPlease do not enter a character where I expect a number and vice versa . \n\n ";//Also in many places you might need to press enter twice for some action to be performed .
-cout<<" \n\nSorry for current inconveniences might improve them in next versions .";
+cout<<" \n\nSorry for current inconveniences will improve them in next versions .";
 getch();
 clrscr();
 cout<<"HELLO \n \tWho are you ? ";
@@ -31,25 +32,27 @@ getch();
 cout<<"Hi , I am Animus ,a fully interactive VI designed to guide you to the right game .";
 getch();
 clrscr();
-cout<<"Please tell me about your system .";
-getch();
-cout<<endl;
-cout<<"\nPress 1 for slower devices ,0 for faster ones .";
-qqqppp=getche();
+//cout<<"Please tell me about your system .";
+//getch();
+//cout<<endl;
+//cout<<"\nPress 1 for slower devices ,0 for faster ones .";
+qqqppp=0;
 //do
 //{
 do
 {
 cout<<endl;
-cout<<"Please enter the correct choice:- \n1) Snake and Ladder\n2)Space Battle\n3)Dragon Quest\n4)Master Mind\t";
+cout<<"Please enter the correct choice:- \n1) Snake and Ladder\n2)Space Battle\n3)Dragon Quest\n4)Master Mind5)Tic_Tac_Toe\t";
 cin>>play;
 getch();
 }
-while(play>4||play<1);
+while(play>5||play<1);
 if(play==1)
 {clrscr();SN_PL();}
 if(play==2)
 {clrscr();SB_PL();}
+if(play==5)
+{clrscr();MINE_RUN();}
 if(play==4)
 {clrscr();NG_PL();}
 if(play==3)
