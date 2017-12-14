@@ -55,13 +55,13 @@ yn=0;
 cout<<"\n Now try guessing it :- ";
 guess++;
 cin>>mainnum;
-getch();
+//getch();
 i=0;
 while(i!=3)
 {
 c[i]=mainnum%10;
 mainnum/=10;
-//b[i]=c[i]-'0';
+b[i]=c[i];
 i++;
 }
 cout<<endl;
