@@ -5,5 +5,6 @@ A collection of 4 text based strategy games in C++.
 3) Dragon Quest :- A text based RPG game with turn based battles, different characters, Boss battles, Save Game, feature and a short story line.
 4) Master Mind :- A strategy based number guessing game.
 
-
-
+<strong>Exposure: </strong> Grid designing, Game Designing, NPC character backend
+                            
+[Download](https://sahajbamba.me/Files/triology.exe)
